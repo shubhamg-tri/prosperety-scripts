@@ -1,0 +1,22 @@
+{
+  "name": "prosp-analytics",
+  "version": "1.0.0",
+  "description": "An analytics package for tracking with prosperety platform",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhamg-tri/prosperety-scripts.git"
+  },
+  "keywords": [
+    "prosperety"
+  ],
+  "author": "Shubham Game",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubhamg-tri/prosperety-scripts/issues"
+  },
+  "homepage": "https://github.com/shubhamg-tri/prosperety-scripts#readme"
+}
