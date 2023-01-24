@@ -11,4 +11,9 @@ function setPropsCookie(cName, cValue, expDays) {
 }
 
 // Apply setCookie
+// setPropsCookie("username", username, 30);
+
+
+(async (_) => {
 setPropsCookie("username", username, 30);
+})();
