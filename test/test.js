@@ -6,7 +6,7 @@ function setCookie(cName, cValue, expDays) {
     date.setTime(date.getTime() + expDays * 24 * 60 * 60 * 1000);
     const expires = "expires=" + date.toUTCString();
     document.cookie =
-        cName + "=" + cValue + "; " + expires + "; path=/test.html" + 'domain=127.0.0.1:5500; SameSite=None';
+        cName + "=" + cValue + "; " + expires + "; path=/" + 'domain=myapp.example.com; SameSite=None';
 }
 
 // Apply setCookie
