@@ -1,7 +1,7 @@
 let username = "Prosperety";
 
 // Set a Cookie
-function setCookie(cName, cValue, expDays) {
+function setPropsCookie(cName, cValue, expDays) {
     console.log('Called')
     let date = new Date();
     date.setTime(date.getTime() + expDays * 24 * 60 * 60 * 1000);
@@ -11,4 +11,4 @@ function setCookie(cName, cValue, expDays) {
 }
 
 // Apply setCookie
-setCookie("username", username, 30);
+setPropsCookie("username", username, 30);
